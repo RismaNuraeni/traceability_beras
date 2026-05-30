@@ -35,7 +35,7 @@
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row justify-content-center">
-                            
+
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
@@ -44,7 +44,7 @@
                                     <form class="user" action="<?= base_url('auth/processLogin') ?>" method="post">
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user"
-                                                name="username" 
+                                                name="username"
                                                 placeholder="Username">
                                         </div>
                                         <div class="form-group">
@@ -62,7 +62,54 @@
                                             Login
                                         </button>
                                         <hr>
-                                        
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- pw sama username -->
+        <div class="row justify-content-center">
+
+            <div class="col-xl-10 col-lg-12 col-md-9">
+
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row justify-content-center">
+
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <h3 class="h4 text-gray-900 mb-4">Password & Username</h3>
+                                    
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Username</th>
+                                                    <th>Password</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>petani</td>
+                                                    <td>12345</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>penggilingan</td>
+                                                    <td>12345</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>distributor</td>
+                                                    <td>12345</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                 </div>
                             </div>
                         </div>

@@ -12,7 +12,7 @@
     "require": {
         "php": "^8.2",
         "codeigniter4/framework": "^4.7",
-        "endroid/qr-code": "^6.1"
+        "endroid/qr-code": "^5.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",
@@ -33,11 +33,14 @@
             "Tests\\Support\\": "tests/_support"
         }
     },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
+"config": {
+    "platform": {
+        "php": "8.3.0"
     },
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+},
     "scripts": {
         "test": "phpunit"
     }
